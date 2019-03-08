@@ -1,3 +1,22 @@
 body {
     background-color: rgb(41, 98, 145)
 }
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.fullPage {
+    border: 1px solid rgb(44, 51, 153);
+    padding: 0px;
+    width: 200px;
+    margin: 8px;
+    text-align: center;
+    box-shadow: 2px 2px 2px 2px;
+    background-color: rgb(170, 87, 114);
+    border-radius: 25px;   
+
+}
