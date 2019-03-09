@@ -1,22 +1,55 @@
 body {
     background-color: rgb(41, 98, 145)
 }
+.myNameIs {
+    font-size: 75px;
+    text-align: center;
+    padding: 0;
+}
+#bioPage, #navLinks, #projectsPage, #technologiesPage {
+    display: flex;
+    justify-content: space-evenly;
+}
 
-.container {
+.Container {
+    border: 2px solid black;
+    width: 500px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
+}
+.projectsPage {
+ border: 2px solid black;
+ width: 300px;
+ text-align: center;
+ padding: 0px;
+ margin: 8px;
+ justify-content: center;
+}
+#navLinks {
+    border: 1px solid black;
+    background-color: rgb(100, 77, 107);
+    list-style: none;
+    padding: 5px;
+    
+}
+.navBar  {
+    display: flex;
+    border: 2px solid black;
+    width: auto;
+    background-color: rgb(100, 77, 107);
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    overflow: hidden;
 }
 
-.fullPage {
-    border: 1px solid rgb(44, 51, 153);
-    padding: 0px;
-    width: 200px;
-    margin: 8px;
-    text-align: center;
-    box-shadow: 2px 2px 2px 2px;
-    background-color: rgb(170, 87, 114);
-    border-radius: 25px;   
-
+a:hover {
+    background-color:  rgb(106, 128, 146);
+    color: black;
+  }
+#bioPage {
+    justify-content: center;
 }

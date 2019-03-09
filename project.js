@@ -36,10 +36,15 @@ const printToDom = (divId, textToPrint) => {
 
 const createProjectCards = () => {
     let domstring = '';
-    for(let i = 0; i < projects.length; i++){
+    for(let l = 0; l < projects.length; l++){
         domstring += `<div class= "projectsPage">`
-        domstring += `<h3>${projects[i].title}</h3>`;
-        domstring += `<p>${projects[i].description}</p>`;
+        domstring += `<h3>${projects[l].title}</h3>`;
+        domstring += `<p>${projects[l].screenshot}</p>`;
+        domstring += `<p>${projects[l].description}</p>`;
+        domstring += `<p>${projects[l].technologiesUsed}</p>`;
+        domstring += `<p>${projects[l].available}</p>`;
+        domstring += `<p>${projects[l].url}</p>`;
+        domstring += `<p>${projects[l].githubUrl}</p>`;
         domstring += `</div>`
     }
     printToDom('projectsPage', domstring);
