@@ -6,27 +6,30 @@ body {
     text-align: center;
     padding: 0;
 }
-#bioPage, #navLinks, #projectsPage, #technologiesPage {
+#bio, #navLinks, #projectsPage, #technologiesPage {
     display: flex;
     justify-content: space-evenly;
+    
 }
 
 .Container {
     border: 2px solid black;
     width: 500px;
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
+  
+
 }
 .projectsPage {
- border: 2px solid black;
+ border: 2px solid rgb(49, 22, 22);
  width: 300px;
  text-align: center;
  padding: 0px;
  margin: 8px;
  justify-content: center;
+ box-shadow: 2px 2px 2px 2px rgb(7, 141, 250);
+ border-radius: 5%;
 }
 #navLinks {
     border: 1px solid black;
@@ -52,4 +55,12 @@ a:hover {
   }
 #bioPage {
     justify-content: center;
-}a
+}
+
+
+
+.page-footer {
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
