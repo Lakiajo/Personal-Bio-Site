@@ -1,39 +1,49 @@
 body {
-    background-color: rgb(41, 98, 145)
+    background-color: rgb(105,139,150);
+    font-family: 'Merienda', cursive;
 }
 .myNameIs {
-    font-size: 75px;
+    font-size: 50px;
     text-align: center;
     padding: 0;
 }
-#bioPage, #navLinks, #projectsPage, #technologiesPage {
+#bio, #navLinks, #projectsPage, #technologiesPage {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-evenly;  
 }
+.img {
+    width: 230px;
+    height: 230px;
 
+}
 .Container {
     border: 2px solid black;
-    width: 500px;
+    width: auto;
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
+    text-align: center;
+    background-color: #8E728C;
 }
 .projectsPage {
  border: 2px solid black;
  width: 300px;
  text-align: center;
- padding: 0px;
+ padding: 10px;
  margin: 8px;
  justify-content: center;
+ box-shadow: 2px 2px 2px 2px #874283;
+ border-radius: 5%;
+ background-color: #8E728C;
+}
+.projectsPage:hover {
+    transform: scale(1.1);
 }
 #navLinks {
     border: 1px solid black;
-    background-color: rgb(100, 77, 107);
+    background-color: #8E728C;
     list-style: none;
-    padding: 5px;
-    
+    padding: 5px;  
 }
 .navBar  {
     display: flex;
@@ -45,11 +55,17 @@ body {
     justify-content: space-around;
     overflow: hidden;
 }
-
 a:hover {
     background-color:  rgb(106, 128, 146);
     color: black;
   }
 #bioPage {
     justify-content: center;
-}a
+}
+.page-footer {
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border: 2px solid black; 
+    background-color: #8E728C;
+}
