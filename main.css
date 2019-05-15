@@ -1,6 +1,16 @@
 body {
     background-color: rgb(105,139,150);
     font-family: 'Merienda', cursive;
+        background: url("https://raw.githubusercontent.com/Lakiajo/Personal-Bio-Site/master/Screen%20Shot%202019-04-29%20at%208.54.24%20PM.png");
+        background-repeat: repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: top left;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    
 }
 .myNameIs {
     font-size: 50px;
@@ -17,37 +27,39 @@ body {
 
 }
 .Container {
-    border: 2px solid black;
+    border: 2px solid #251F24;
     width: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     text-align: center;
-    background-color: #8E728C;
+    background-color: #722C36;
 }
 .projectsPage {
- border: 2px solid black;
+ margin: 8px;
+ flex-wrap: wrap;
+ /* justify-content: center; */
+ /* flex-direction: row; */
+ border: 2px solid #251F24;
  width: 300px;
  text-align: center;
  padding: 10px;
- margin: 8px;
- justify-content: center;
- box-shadow: 2px 2px 2px 2px #874283;
+ box-shadow: 2px 2px 2px 2px #C03F55;
  border-radius: 5%;
- background-color: #8E728C;
+ background-color: #722C36;
 }
 .projectsPage:hover {
     transform: scale(1.1);
 }
 #navLinks {
-    border: 1px solid black;
-    background-color: #8E728C;
+    border: 1px solid #251F24;
+    background-color:#722C36;
     list-style: none;
     padding: 5px;  
 }
 .navBar  {
     display: flex;
-    border: 2px solid black;
+    border: 2px solid #251F24;
     width: auto;
     background-color: rgb(100, 77, 107);
     flex-direction: row;
@@ -57,7 +69,7 @@ body {
 }
 a:hover {
     background-color:  rgb(106, 128, 146);
-    color: black;
+    color: #251F24;
   }
 #bioPage {
     justify-content: center;
@@ -66,6 +78,6 @@ a:hover {
     display: flex; 
     flex-wrap: wrap;
     justify-content: space-around;
-    border: 2px solid black; 
-    background-color: #8E728C;
+    border: 2px solid #251F24; 
+    background-color: #722C36;
 }
